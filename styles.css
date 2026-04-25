@@ -210,6 +210,32 @@ h1 {
     text-shadow: 0 0 10px var(--accent);
 }
 
+/* Categories */
+.category-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    color: #fff;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.category-title i {
+    color: var(--accent);
+}
+
+.subcategory-title {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
 /* Lists */
 .summary-list {
     list-style: none;
